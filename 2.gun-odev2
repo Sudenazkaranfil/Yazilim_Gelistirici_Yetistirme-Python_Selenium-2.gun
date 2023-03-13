@@ -41,8 +41,7 @@ class Person:
     def __init__(self,name,lastName):
         self.name = name
         self.lastName = lastName
-    musteri1 = Person("Ahmet","Demiroğ")
-    musteri2 = Person("Kerem", "Varış")
+    musteri1 = Person("Engin","Demiroğ")
     print(musteri1.name)
     
     
@@ -55,5 +54,6 @@ class Person:
             print(satir[1])
             baglanti.close()
     listele()
+
 
 
