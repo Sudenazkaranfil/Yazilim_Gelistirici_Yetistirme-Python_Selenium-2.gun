@@ -1,11 +1,10 @@
+
 #classes.py
 class Banka:
     def krediBasvur(self):
         print("Merhaba")
-        
     def krediHesapla(self):
-        print("Hesaplar Yapıldı")
-            
+        print("Hesaplar Yapıldı")  
 banka = Banka()
 banka.krediBasvur()
 
@@ -28,27 +27,20 @@ class Matematik:
 matematik = Matematik(6,7)
 sonuc = matematik.topla()
 print("Sonuç : " + str(sonuc))
-
 class Istatistik(Matematik):
     def __init__(self, sayi1, sayi2):
         super().__init__(sayi1, sayi2)
     def varyansHesapla(self):
         return self.sayi1 * self.sayi2
-    
     #inheritance
-    
     istatistik = Istatistik(5,8)
     
-
 
 #person.py
 class Person:
     def __init__(self,name,lastName):
         self.name = name
         self.lastName = lastName
-
-    
-    
     musteri1 = Person("Ahmet","Demiroğ")
     musteri2 = Person("Kerem", "Varış")
     print(musteri1.name)
@@ -56,13 +48,12 @@ class Person:
     
  #sqliteDemo
     import sqlite3
-    
     def listele():
         baglanti = sqlite3.connect("chinook/chinook.db")
         cursor = baglanti.execute("select FirstName, LastName from customers")
-        
         for satir in cursor:
             print(satir[1])
-            
             baglanti.close()
     listele()
+
+
