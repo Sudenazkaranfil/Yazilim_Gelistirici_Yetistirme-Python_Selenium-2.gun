@@ -1,4 +1,4 @@
-# Yazilim_Gelistirici_Yetistirme-Python_Selenium-odev2
+# Yazilim_Gelistirici_Yetistirme-Python_Selenium-2.gun-odev1
 
 #Bu öğrenci kayıt sisteminde;
 
