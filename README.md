@@ -75,8 +75,3 @@ def exit_program():
     print("program exiting")
     exit()
     
-    
-    
-    #classes
-    
-    
